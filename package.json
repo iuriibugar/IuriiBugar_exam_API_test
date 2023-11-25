@@ -1,0 +1,17 @@
+{
+  "name": "api_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server-auth db.json http://jsonplaceholder.typicode.com/db"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "cypress": "^13.6.0",
+    "json-server-auth": "^2.1.0"
+  }
+}
